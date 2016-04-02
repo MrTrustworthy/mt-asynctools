@@ -1,12 +1,12 @@
 {
-  "name": "mt-npm-base",
+  "name": "mt-asynctools",
   "version": "1.0.0",
   "description": "",
-  "main": "build/bundle.js",
+  "main": "build/mt-asynctools.js",
   "scripts": {
     "test": "karma start",
-    "build": "browserify src/loader.js -d -v --standalone bundle | derequire > build/bundle.js",
-    "dev": "watchify src/loader.js -d -v --standalone bundle -o \"derequire > build/bundle.js\"",
+    "build": "browserify src/loader.js -d -v --standalone mt-asynctools | derequire > build/mt-asynctools.js",
+    "dev": "watchify src/loader.js -d -v --standalone mt-asynctools -o \"derequire > build/mt-asynctools.js\"",
     "karma": "karma start",
     "jasmine": "jasmine"
   },

@@ -1,4 +1,4 @@
 "use strict";
 
-module.exports.FirstModule = require("./first-module");
+module.exports.Promise = require("./mt-promise");
 
